@@ -39,7 +39,8 @@ input_data = pd.DataFrame([[
     density,
     pH,
     sulphates,
-    alcohol
+    alcohol,
+    quality
 ]], columns=model.feature_names_in_)  
 
 if st.button("predict"):
